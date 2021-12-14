@@ -1,0 +1,67 @@
+/deep/.cut_tooltip {
+    padding: 6px;
+    background: linear-gradient(135deg, transparent 30px, #546695 0) top left,
+      linear-gradient(-135deg, #546695 30px, #546695 0) top right,
+      linear-gradient(-45deg, transparent 30px, #546695 0) bottom right,
+      linear-gradient(45deg, #546695 30px, #546695 0) bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    .box {
+      width: 100%;
+      height: 100%;
+      padding: 40px;
+      background: linear-gradient(135deg, transparent 28px, #132952 0) top left,
+        linear-gradient(-135deg, #132952 28px, #132952 0) top right,
+        linear-gradient(-45deg, transparent 28px, #132952 0) bottom right,
+        linear-gradient(45deg, #132952 28px, #132952 0) bottom left;
+      background-size: 50% 50%;
+      background-repeat: no-repeat;
+    }
+  }
+.amap-logo{
+   opacity:0;
+}
+.amap-copyright {
+    opacity:0;
+}
+.amap-marker-label {
+  background: transparent;
+  border: none
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.info-window {
+    .title {
+      img {
+        height: 30px;
+      }
+      font-size: 17px;
+    }
+    padding: 12px;
+    padding-left: 28px;
+    width: 325px;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-image: url("~@/assets/map/introduce_bg.png");
+  }
+
+.more-img {
+    position: absolute;
+    top: 4px;
+    left: 146px;
+    color: #4cf7fe;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }

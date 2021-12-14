@@ -1,0 +1,64 @@
+// 背景色
+$color_eee: #eeeeee;
+// 边框颜色
+$color_de: #dedede;
+// 组件背景颜色
+$color_f9: #f9f9f9;
+
+
+$color_fff: #fff;
+$color_ccc: #ccc;
+$color_999: #999;
+$color_4df8fe: #4df8fe; // 数字
+$color_04d3ff: #04d3ff; // 标题
+$color_1b87ff: #1b87ff; // 单位等
+$color_44c169: #44c169; // 降
+$color_dc5073: #dc5073; // 升
+
+// ------ 字体颜色
+.color-fff{
+  color: $color_fff;
+}
+.color-ccc{
+  color: $color_ccc;
+}
+.color-999{
+  color: $color_999;
+}
+.color-4df8fe{
+  color: $color_4df8fe;
+}
+.color-04d3ff{
+  color: $color_04d3ff;
+}
+.color-1b87ff{
+  color: $color_1b87ff;
+}
+.color-44c169{
+  color: $color_44c169;
+}
+.color-dc5073{
+  color: $color_dc5073;
+}
+// ------ 背景颜色
+.bg-fff{
+  background-color: $color_fff;
+}
+.bg-ccc{
+  background-color: $color_ccc;
+}
+.bg-4df8fe{
+  background-color: $color_4df8fe;
+}
+.bg-04d3ff{
+  background-color: $color_04d3ff;
+}
+.bg-1b87ff{
+  background-color: $color_1b87ff;
+}
+.bg-44c169{
+  background-color: $color_44c169;
+}
+.bg-dc5073{
+  background-color: $color_dc5073;
+}

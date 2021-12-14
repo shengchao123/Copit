@@ -1,0 +1,51 @@
+
+#app {
+  width: 3840px;
+  transform: scale(1);
+  transform-origin: 0 0;
+  font-size: 24px;
+  font-family: MicrosoftYaHei;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  line-height: 1.15;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Microsoft YaHei;
+  scrollbar-width: none;
+  &::-webkit-scrollbar-track-piece {
+    display: none;
+  }
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  &::-webkit-scrollbar-thumb {
+    display: none;
+  }
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+  border: none;
+}
+
+.clearf:after,
+.clearf:before {
+  content: "";
+  display: block;
+  clear: both;
+}
